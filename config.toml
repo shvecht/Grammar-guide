@@ -1,4 +1,4 @@
-baseurl = "http://shvecht.github.io/grammar-guide/"
+baseurl = "http://shvecht.github.io/Grammar-guide/"
 languageCode = "he-il"
 title = "מדריך דקדוק לשפה היפנית"
 theme = "casper"
