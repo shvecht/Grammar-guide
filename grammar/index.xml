@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>מדריך דקדוק לשפה היפנית</title>
-    <link>http://shvecht.github.io/grammar-guide/</link>
-    <description>Recent content on מדריך דקדוק לשפה היפנית</description>
+    <title>Grammars on מדריך דקדוק לשפה היפנית</title>
+    <link>http://shvecht.github.io/grammar-guide/grammar/</link>
+    <description>Recent content in Grammars on מדריך דקדוק לשפה היפנית</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>he-il</language>
     <copyright>Some rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 01 Jun 2015 18:38:31 +0300</lastBuildDate>
-    <atom:link href="http://shvecht.github.io/grammar-guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://shvecht.github.io/grammar-guide/grammar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>קנג׳י</title>
