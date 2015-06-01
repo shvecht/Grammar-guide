@@ -1,0 +1,7 @@
+3baseurl = "http://shvecht.github.io/grammar-guide/"
+languageCode = "he-il"
+title = "מדריך דקדוק לשפה היפנית"
+paginate = 5
+DisqusShortname = "grammar-guide"
+Copyright = "Some rights reserved - 2015"
+canonifyurls = "true"
