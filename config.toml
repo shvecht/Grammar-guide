@@ -1,7 +1,74 @@
-3baseurl = "http://shvecht.github.io/grammar-guide/"
+baseurl = "http://shvecht.github.io/grammar-guide/"
 languageCode = "he-il"
 title = "מדריך דקדוק לשפה היפנית"
+theme = "casper"
 paginate = 5
 DisqusShortname = "grammar-guide"
 Copyright = "Some rights reserved - 2015"
 canonifyurls = "true"
+
+[params]
+  description = "תרגום המדריך של טאה קים לדקדוק יפני"
+  cover = "images/background.png"
+  author = "האבלוק וטינרי"
+  authorlocation = "אנק-מורפורק"
+  authorwebsite = "shvad.net"
+  bio= "האבלוק וטינרי הוא רודן נאור, בעל זקן למופת ואב לכלב זקן ומיותר."
+  logo = "images/logo.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  twitterName = "shvecht"
+  githubName = "shvecht"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+
+[[menu.main]]
+  name = "בית"
+  weight = -125
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "הקדמה"
+  weight = -120
+  pre = "<h3>ספר דקדוק</h3>"
+  identifier = "introduction"
+  url = "/grammar/introduction"
+
+[[menu.main]]
+  name = "הקדמה"
+  weight = -115
+  # parent = "introduction"
+  pre = "<h4>שיטת הכתיבה</h4>"
+  identifier = "writingsystem"
+  url = "/grammar/writing-system/introduction/"
+
+[[menu.main]]
+  name = "הירגנה"
+  weight = -110
+  # parent = "introduction"
+  identifier = "hiragana"
+  url = "/grammar/writing-system/hiragana"
+
+[[menu.main]]
+  name = "קטקנה"
+  weight = -105
+  # parent = "introduction"
+  identifier = "katakana"
+  url = "/grammar/writing-system/katakana"
+
+[[menu.main]]
+  name = "קנג׳י"
+  weight = -100
+  # parent = "introduction"
+  identifier = "kanji"
+  url = "/grammar/writing-system/kanji"
+
+[[menu.main]]
+  name = "אודות"
+  weight = -0
+  pre = "<h3>מחוץ</h3>"
+  identifier = "about"
+  url = "/about"

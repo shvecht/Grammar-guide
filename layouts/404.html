@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+{{if .Site.Params.cover}}
+<header class="main-header " style="background-image: url({{.Site.BaseURL}}{{.Site.Params.cover}})">
+{{else}}
+<header class="main-header no-cover">
+{{end}}
+
+    <nav class="main-nav overlay clearfix">
+        {{ if .Site.Params.logo }}
+            <a class="blog-logo" href="{{ .Permalink }}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="לוגו" /></a>
+        {{end}}
+        {{ if .Site.Menus.main }}
+            <a class="menu-button" href="#"><span class="word">תפריט</span><span class="burger">&#9776;</span></a>
+        {{else}}
+            {{ if .Site.Params.RSSLink}}
+              <a class="menu-button icon-feed" href="{{.Site.Params.RSSLink }}">&nbsp;&nbsp;הרשמה</a>
+            {{else}}
+              <a class="menu-button icon-feed" href="{{ .RSSLink }}">&nbsp;&nbsp;הרשמה</a>
+            {{end}}
+        {{end}}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">אין כאן מה לראות</h1>
+            <h2 class="page-description">מישהו עשה כאן טעות, פנה בפניה הלא נכונה והגיע למקום הלא נכון. אני מציע שהמישהו הזה ימשיך הלאה כי יש לו/ה עיניים יפות וחבל..</h2>
+        </div>
+    </div>
+</header>
+
+{{ partial "footer.html" . }}
